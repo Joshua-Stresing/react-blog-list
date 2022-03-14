@@ -5,7 +5,7 @@ import { fetchBlogs } from '../../services/Blogs/Blogs';
 
 export default function Main() {
   const [blogs, setBlogs] = useState([]);
-
+//nonsense note
   useEffect(() => {
     const fetch = async () => {
       try {
